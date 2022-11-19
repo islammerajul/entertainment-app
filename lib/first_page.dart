@@ -84,10 +84,20 @@ class _FirstPageState extends State<FirstPage> {
                 alignment: Alignment.topLeft,
                 child: Container(
                   height: 30,
-                  child: Text(
-                    "Catagories",
-                    style:
-                        GoogleFonts.roboto(fontSize: 20, color: Colors.white),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "Catagories",
+                        style: GoogleFonts.roboto(
+                            fontSize: 20, color: Colors.white),
+                      ),
+                      Text(
+                        "View all",
+                        style: GoogleFonts.roboto(
+                            fontSize: 20, color: Colors.white),
+                      ),
+                    ],
                   ),
                 ),
               ),
